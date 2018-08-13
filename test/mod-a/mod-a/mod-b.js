@@ -1,3 +1,5 @@
+const name = require('./lib/name')
+
 module.exports = async function (context) {
-  return context.concat('a-a-b')
+  return context.concat(name)
 }

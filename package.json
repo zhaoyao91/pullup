@@ -16,6 +16,9 @@
       "jest"
     ]
   },
+  "engines": {
+    "node": ">=10"
+  },
   "keywords": [
     "pullup"
   ],

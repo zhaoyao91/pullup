@@ -8,7 +8,7 @@ describe('pullup', () => {
     const app = await pullup(modPath, [])
     expect(app).toEqual([
       'a-a-a',
-      'a-a-b',
+      'lib',
       'a-b-b',
       'a-b-a',
       'a-c',
