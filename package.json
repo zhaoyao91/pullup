@@ -1,0 +1,30 @@
+{
+  "name": "pullup",
+  "version": "0.0.0",
+  "description": "pull it up, mod or app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest .",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "pre-commit": [
+    "fix"
+  ],
+  "standard": {
+    "envs": [
+      "jest"
+    ]
+  },
+  "keywords": [
+    "pullup"
+  ],
+  "author": "zhaoyao91 <zhaoyao91@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "pre-commit": "^1.2.2",
+    "standard": "^11.0.1"
+  }
+}
