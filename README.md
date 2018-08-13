@@ -2,7 +2,7 @@
 
 Pull it up, mod or app.
 
-Organize your mod or app as a tree of dirs and files. Do not need to import/require everywhere. Just pull them up with one line of code.
+Organize your mod or app as a tree of dirs and files. Do not need to import/require code everywhere. Just pull them up with one line of code.
 
 ## Installation
 
@@ -19,6 +19,13 @@ Note
 - create a dir as a mod in which
   - any file exports a mod loader, which is an async function that tooks a context and returns a (new) context, such as `async (context) => context`
   - any dir is another sub mod
+- pull up it:
+
+```
+const pullup = require('pullup')
+
+const app = await pullup(dir, context)
+```
 
 See [test](./test) as an example.
 
