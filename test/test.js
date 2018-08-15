@@ -11,6 +11,7 @@ describe('pullup', () => {
       'lib',
       'a-b-b',
       'a-b-a',
+      'a-b-c-a',
       'a-c',
       'a-d'
     ])
